@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { TiLocationArrow } from "react-icons/ti";
+import { TiLocationArrow } from "react-icons/ti"; 
 import { useGSAP } from "@gsap/react"
 import { gsap } from "gsap";
 import Button from "./Button";
@@ -140,7 +140,6 @@ const Hero = () => {
               Enter the Metagame Layer <br /> Unleash the Play Economy
             </p>
 
-            {/* ✅ Button with leftIcons added */}
             <Button
               id="watch-trailer"
               title="Watch Trailer"
